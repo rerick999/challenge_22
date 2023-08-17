@@ -1,0 +1,17 @@
+1) loaded java as per directions
+2) opened anaconda prompt as administrator ran pip install pyspark==3.4.0
+3) pip install findspark
+4) pip install pyarrow
+5) pip install fastparquet
+
+6) installed 7zip
+7) downloaded hadoop from https://hadoop.apache.org/releases.html, binary, to downloads;  used 7zip to open gz; used 7zip expand tar; renamed subfolder to just be 'hadoop'
+8) moved hadoop to c:\programdata\hadoop
+9) downloaded zip of https://github.com/steveloughran/winutils to downloads
+10) opened zip
+11) moved bin for 3.0.0 to the c:\programdata\hadoop, letting it replace bin items already there
+
+12) went into environment variables as directed
+SPARK_HOME C:\ProgramData\anaconda3\Lib\site-packages\pyspark
+HADOOP_HOME C:\ProgramData\hadoop
+added 2 PYSPARK_DRIVER environment variables as specified in directions
